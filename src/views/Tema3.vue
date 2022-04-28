@@ -7,8 +7,8 @@
         span(style="color: white") 3
       h1 Proveedores de servicio en la nube
 
-    img(src="@/assets/curso/temas/tema3/img-1.png")
-    div(style="padding: 1rem; background-color: #72E6FF")
+    img(src="@/assets/curso/temas/tema3/img-1.png").mb-2
+    div(style="padding: 1rem; background-color: #C9DFF1")
       p.mb-0 La fotografía por ser un proceso tiene unas características que la hacen similar en todo el mundo, alrededor del globo terráqueo se observa que se mantienen dichas características para buscar una sensación o reacción en el espectador como lo dice el portal de arquitectura Arqhys.com (2017) la buena fotografía “crea una reacción, donde las personas logran estimular a nivel visual”. Estas características se evidencian en la experticia del fotógrafo logrando imágenes de óptima calidad con recursos limitados, no toda personas que tiene una cámara profesional es fotógrafo, fotógrafo es quien conoce y usa a favor del objetivo fotográfico las características de la fotografía, estas características desde la física son:
     separador
 
@@ -47,16 +47,16 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_2 3.2. Velocidad
 
-    .p-3.px-xl-4.d-flex.flex-wrap.flex-xl-nowrap.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-2.png')})`}")
-      p.col-12.col-xl-7.px-0.px-md-4.order-2.order-xl-1 “La velocidad de obturación en fotografía, es el tiempo que permanecen abiertas las laminillas del obturador permitiendo el paso de luz. La velocidad de obturación, es otro factor primordial que ayuda a controlar la exposición de la fotografía” De-Fotografía'' (2020) Esta velocidad determina el tiempo que el obturador permanece abierto, controlando así la cantidad de luz que entra al sensor de la cámara.  Las unidades trabajadas en la velocidad son los segundos, por ejemplo, la velocidad 5000 es equivalente a 1/5000 de segundo. Las notaciones de las velocidades pueden cambiar dependiendo de la marca de cámara y su modelo. Otra forma de representarlo es 5000 o 5ooo, en general es lo mismo solo cambia la notación del término.
-      img(src="@/assets/curso/temas/tema3/img-5.png" style="max-width: 501px").col-12.col-xl-5.mx-auto.order-1.order-xl-2.mb-4.mb-xl-auto
+    .p-3.px-xl-4.py-xl-5.d-flex.flex-wrap.flex-xl-nowrap.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-2.png')})`}" style="margin-left: -3rem; margin-right: -3rem; padding-left: 3rem; padding-right: 3rem; background-repeat: no-repeat;")
+      p.col-12.col-xl-5.px-0.px-md-4.order-2.order-xl-1 “La velocidad de obturación en fotografía, es el tiempo que permanecen abiertas las laminillas del obturador permitiendo el paso de luz. La velocidad de obturación, es otro factor primordial que ayuda a controlar la exposición de la fotografía” De-Fotografía'' (2020) Esta velocidad determina el tiempo que el obturador permanece abierto, controlando así la cantidad de luz que entra al sensor de la cámara.  Las unidades trabajadas en la velocidad son los segundos, por ejemplo, la velocidad 5000 es equivalente a 1/5000 de segundo. Las notaciones de las velocidades pueden cambiar dependiendo de la marca de cámara y su modelo. Otra forma de representarlo es 5000 o 5ooo, en general es lo mismo solo cambia la notación del término.
+      img(src="@/assets/curso/temas/tema3/img-5.png" style="max-width: 674px").col-12.col-xl-7.mx-auto.order-1.order-xl-2.mb-4.mb-xl-auto
 
     separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_3_3 3.3. ISO
 
-    .p-3.py-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-3.png')})`}")
+    div(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-3.png')})`}" style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; margin-right: -3rem; padding: 3rem;")
       .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5
         img(src="@/assets/curso/temas/tema3/img-6.png" style="max-width: 586px").col-12.col-xl-6.mb-4.mb-xl-auto.mx-auto
         p.col-12.col-xl-6.ps-xl-5.mb-0 La sensibilidad ISO se encarga de precisar la exposición de una imagen para evitar que la imagen se vea muy oscura o muy clara tal como se afirma en  Adobe (2020) “la sensibilidad ISO determina la cantidad de luz que dejará entrar la cámara. Es un concepto que ya existía con la fotografía tradicional, pero todavía se utiliza en la actualidad con la fotografía digital, pues sigue siendo clave controlar la luz que va a necesitar la cámara para hacer una foto”. Uno de los factores que determina el resultado final de una foto es la luz, de aquí parte la importancia de la sensibilidad de la ISO, el cual se encarga de establecer la capacidad del sensor de una cámara para distinguir la luz. Es decir, cuando sea mayor la sensibilidad, el sensor será más sensible a la luz haciendo que el proceso de una toma fotográfica sea más rápido. Haciendo referencia a la cantidad de luz que la cámara necesita para retratar una imagen, la sensibilidad tiene la función de medir la reacción del sensor ISO de acuerdo con la escena que se va a retratar (teniendo en cuenta la cantidad de luz que se presente en el espacio de la toma fotográfica) de esta manera, puede trabajar con la apertura del diafragma y con una velocidad de obturación rápida o lenta.
@@ -66,12 +66,12 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_4 3.4. Triángulo de exposición
 
-    .p-3.p-xl-4(style="background-color: #FBFCFE")
+    div(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-4.png')})`}" style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; margin-right: -3rem; padding: 3rem;")
       p.mb-5 El triángulo de exposición es un principio técnico de iluminación que consta de los tres componentes presentes en la cámara, los cuales interactúan para formar un triángulo al momento de hacer una foto, a saber:  la apertura, la velocidad de obturación y el ISO; el triángulo de exposición es la clave principal para obtener los resultados que se espera de la fotografía, la idea es mantener el triángulo en los valores similares entre los tres elementos si unos se de los valores se mueve los otros también deberían cambiar para mantener la imagen estable.
         br
         br
         |En el triángulo de exposición, las tres variables que forman los tres lados del triángulo interactúan constantemente y trabajan juntas para producir una imagen correctamente expuesta, cuando cambia una variable, al menos una de las otras variables debe cambiar para mantener la exposición ideal.
-      img(src="@/assets/curso/temas/tema3/img-8.svg").col-12.col-md-8.col-xl-6.mx-auto
+      img(src="@/assets/curso/temas/tema3/img-8.png" style="max-width: 632px").mx-auto
     
 </template>
 

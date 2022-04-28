@@ -93,21 +93,30 @@ export default {
 </script>
 
 <style lang="sass">
+.linea-tiempo-c__header__item__dot
+  background-color: #BAD5EC
+  border-color: #BAD5EC
+  max-width: 35px
+  width: 35px
+  max-height: 30px
+  height: 30px
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after
   content: url('../assets/curso/temas/tema2/check.svg')
-  background-color: transparent
-  position: absolute
-  top: 1px
-  left: 6px
-  width: 14px
-  height: 12px
+  background-position: center
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  background-color: #00BBBB
+  width: 42px
+  height: 42px
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
-  background-color: #2FA124
-  border-color: #2FA124
+  background-color: #147DC4
+  border-color: #147DC4
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after
-  background-color: #2FA124
+  background-color: #707070
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before
-  background-color: #2FA124
+  background-color: #707070
 .linea-tiempo-c__header
   position: absolute
   width: 100%

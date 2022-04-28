@@ -18,8 +18,8 @@
       h2#t_2_1 2.1 Los pixeles
     
     p.mb-5 Las cámaras fotográficas son la configuración ideal de muchos elementos distribuidos en un espacio que buscan un mismo objetivo, estos elementos se conocen como partes de la cámara fotográfica, en algunos textos o documentos se pueden ver con el nombre de componentes, a continuación, se reflejan todas las partes en un gráfico:
-
-    img(src="@/assets/curso/temas/tema2/img-2.svg").mb-5
+    div(style="margin-left: -3rem; margin-right: -3rem;")
+      img(src="@/assets/curso/temas/tema2/img-2.svg").mb-5
 
     p.mb-5 Las partes de la cámara se entienden mejor en los dos siguientes videos, en el primero puede ver el cuerpo de la cámara y en el segundo los lentes:
 
@@ -99,9 +99,9 @@
       p.mb-4.mb-xl-0.pe-0.pe-xl-4.order-2.order-xl-1 Un elemento muy común dentro de los dispositivos, sobre todo los más recientes es el espacio de modos de foto, los modos de foto son preconfiguraciones que vienen con la cámara desde la fábrica en la que setean todos los elementos para facilitar la captura fotográfica de los eventos más populares, inclusive dejan elegir si lo que el fotógrafo quiere es hacer las tomas de manera manual. Estos modos ayudan mucho a personas que quieren hacer fotos de buena calidad de manera rápida y con cuentan con tanto conocimiento para hacerlo o prefieren confiar en las configuraciones de fábrica, en la siguiente imagen se muestran los modos de cámara y sus usos más frecuentes:
       img(src="@/assets/curso/temas/tema2/img-2.png").order-1.order-xl-2.mb-4.mb-xl-0
 
-    p.mb-5 <b>Modos de la cámara digital:</b> las cámaras digitales disponen de diferentes modos de uso, que se determinan según la escena y la situación de luz que se va a fotografiar, los cuales son: 
+    p.mb-0 <b>Modos de la cámara digital:</b> las cámaras digitales disponen de diferentes modos de uso, que se determinan según la escena y la situación de luz que se va a fotografiar, los cuales son: 
 
-    .d-flex.flex-wrap.flex-xl-nowrap
+    .d-flex.flex-wrap.flex-xl-nowrap(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-3.png')})`}" style="background-repeat: no-repeat; margin-left: -3rem; margin-right: -3rem; padding: 6rem 3rem;")
       .order-2.order-xl-1
         .d-flex.align-items-center.mb-4.mb-xl-0
           img(src="@/assets/curso/temas/tema2/1.svg" style="max-width: 108px").me-2
@@ -123,14 +123,14 @@
             | en donde el fotógrafo controla la velocidad, la apertura del diafragma y<br class="d-none d-xl-flex"> el ISO. Es recomendable llegar a usar el modo manual, ya que es aquí<br class="d-none d-xl-flex"> donde todas las destrezas y saberes del fotógrafo se ponen en juego.
       img(src="@/assets/curso/temas/tema2/img-9.png" style="max-width: 570px").mx-auto.ms-auto.order-1.order-xl-2.mb-4.mb-xl-auto
     
-    separador
+    Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2. Lentes y tipos de lentes fotográficos
     
     .position-relative.mb-5
-      img(src="@/assets/curso/temas/tema2/img-3.png")
-      div(style="background-color: #BAD5EC; bottom: 0; padding: 1rem; font-size: 15px").img-bg-t2
+      img(src="@/assets/curso/temas/tema2/img-3.png").mb-2
+      div(style="background-color: #BAD5EC; bottom: 0; padding: 1rem; font-size: 15px")
         p.mb-0 Los lentes y objetivos son parte esencial para la buena calidad de las fotografías, si bien la cámara es la que manipula y captura la imagen, el lente es quien recoge y dirige la luz, Los lentes fotográficos son herramientas fundamentales para la imagen final, tanto como expresión creativa como para la practicidad de la toma fotográfica. La amplia gama de lentes a disposición hace posible que todas las necesidades y exigencias fotográficas sean posibles. Es importante mencionar que los diferentes lentes tienen diversos ángulos de toma fotográfica. Todos los lentes se miden en mm (28 mm, 50 mm) y cada uno de ellos tiene su ángulo y amplitud de toma. 
     
     img(src="@/assets/curso/temas/tema2/img-4.svg").mb-5
@@ -145,8 +145,9 @@
 
     separador
     .d-flex.mb-5
-      .col-12.col-md-6.col-xl-4(style="margin-left: -3rem; padding-top: .3rem; padding-bottom: .3rem; padding-left: 3rem; border-top-right-radius: 11px; background-color: #9F96FF")
+      div(style="margin-left: -3rem; padding-top: .5rem; padding-bottom: .5rem; padding-left: 3rem; border-top-right-radius: 11px; background-color: #C9DFF1; position: relative; padding-right: 80px")
         h3.mb-0 {{titulosSlide[indexSlide]}}
+        img(src="@/assets/curso/temas/tema2/decorador.svg" style="width: 83px; position: absolute; right: -40px; top: -25px")
     SliderPersonalizado.mb-5(:datos="datosSlyder" @indexSlide="indexSlide = $event")
 
     separador
@@ -154,7 +155,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_3 2.3. Tipos de cámaras fotográficas
 
-    .d-flex.flex-wrap.flex-xl-nowrap.mb-5
+    .d-flex.flex-wrap.flex-xl-nowrap.mb-4
       img(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px").col-12.col-xl-6.mb-4.mb-xl-auto.mx-auto
       p.col-12.col-xl-6.ps-0.ps-xl-4.mb-0 La calidad de las imágenes tomadas con una cámara digital es diferente de la calidad de las imágenes tomadas con un teléfono móvil. Esas diferencias se dan por varios motivos, en primer lugar, se puede decir esto por la calidad de la imagen y la nitidez de los detalles, por supuesto, será mayor la calidad (en pixeles) la fotografía con una cámara digital; es claro que los materiales también influyen ya que las cámaras fotográficas de lentes (objetivos) intercambiables pueden ser hasta en vidrio haciendo el efecto réflex casi perfecto mientras que las cámaras de los celulares tienen un lente fijo (objetivo fijo) y sus cambios son digitales; y por último su funcionalidad y seguimiento, es claro que una cámara está hecha solo para eso mientras que los teléfonos también usan su cámara para otras tareas que no requieren imágenes de gran resolución como las de las videollamadas o publicaciones sencillas en redes sociales.
         br
@@ -373,8 +374,4 @@ export default {
     margin-left: -3rem
     padding-right: 3rem !important
     padding-left: 3rem !important
-.img-bg-t2
-  position: absolute
-  @media (max-width: 1200px)
-    position: relative
 </style>

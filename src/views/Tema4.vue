@@ -7,7 +7,7 @@
         span(style="color: white") 4
       h1 Redes sociales para publicación de fotografías 
 
-    .p-3.py-xl-5.d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.png')})`}")
+    .p-3.py-xl-5.d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.png')})`}" style="background-repeat: no-repeat;")
       img(src="@/assets/curso/temas/tema4/img-1.png" style="max-width: 505px;").mx-auto.mb-4.mb-xl-0
       p.mb-0.ps-xl-5 La fotografía digital en las redes sociales se ha convertido en la mejor herramienta para los vendedores y compradores del mundo, ya que por medio de la fotografía se ha podido promocionar cualquier producto dentro de estas plataformas. La ventaja de las redes sociales es que no es necesario ser un fotógrafo profesional para poder publicar fotografías. Solo es necesario capturar imágenes que cuenten una historia por medio de la iluminación, el encuadre, la composición y la edición que logren cautivar a los espectadores y usuarios de estas plataformas. 
         br

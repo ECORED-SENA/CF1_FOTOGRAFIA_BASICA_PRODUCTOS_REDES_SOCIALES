@@ -18,10 +18,8 @@
 
       .d-none.d-lg-flex.col-lg-5.px-0.position-relative.img-p.align-items-center.img-banner-1
         img(:src="globalData.imagenBannerPrincipal").mb-auto
-    .imagen_flotante_1: img(src="@/assets/curso/portada/flot1.svg").d-none.d-lg-block
-    .imagen_flotante_2: img(src="@/assets/curso/portada/flot2.svg").d-none.d-lg-block
-    .imagen_flotante_3: img(src="@/assets/curso/portada/flot3.svg").d-none.d-lg-block
-    .imagen_flotante_4: img(src="@/assets/curso/portada/flot4.svg").d-none.d-lg-block
+    .imagen_flotante_1: img(src="@/assets/curso/portada/flot1.png").d-none.d-lg-block
+    .imagen_flotante_2: img(src="@/assets/curso/portada/flot2.png").d-none.d-lg-block
   
 </template>
 
@@ -43,14 +41,10 @@ export default {
   top: .5% !important
   right: -5% !important
   img
-    width: 377.66px
+    width: 553.33px
     position: relative
     z-index: 1
-@media (max-width: 1400px)
-  .img-banner-1
-    img
-      width: 377.66px
-      right: 6rem
+    left: -3rem
 .img-p
   top: 3%
   right: -2%
@@ -119,14 +113,14 @@ export default {
   &_1
     animation: float1 3.2s ease-in-out infinite alternate
     position: absolute
-    width: 251px
+    width: 245px
     top: 7%
     right: 2%
     z-index: 2
   &_2
     animation: float1 3.3s ease-in-out infinite alternate
     position: absolute
-    width: 203px
+    width: 415px
     bottom: 0%
     right: 8%
     z-index: 2

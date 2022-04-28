@@ -47,4 +47,12 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #133D60
+  border: none
+  .fa-angle-left, .fa-angle-right
+    color: #FFFFFF
+  &:hover
+    border: none
+</style>
