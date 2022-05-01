@@ -7,7 +7,7 @@
         span(style="color: white") 1
       h1 Fotografía
 
-    img(src="@/assets/curso/temas/tema1/img-1.png").mb-2
+    img(src="@/assets/curso/temas/tema1/img-1.jpg").mb-2
     div(style="background-color: #C9DFF1").mb-4
       p.p-3.p-md-4 Definir la fotografía es asumirla como arte que consisten en capturar imágenes empleando para ello la luz, sumada con la técnica, es decir, elegir el mejor escenario para obtener imágenes duraderas contando con los diferentes formatos de captura de imágenes, los cuales pueden ser análogos o digitales.  <b>“La fotografía consiste en captar de forma permanente una imagen, gracias a la luz que reflejan los objetos. La palabra fotografía significa dibujar con luz” Fotonostra (2020)</b>
     p Al momento de abordar el tema de la historia de la fotografía se encuentra demasiado material el cual se hace bastante extenso dentro de la historia de la humanidad, por ello, es preciso mencionar que el deseo del hombre por representar la realidad no lo detuvo hasta que la simplificó con el manejo y poder de la luz sobre un dispositivo tangible como la cámara fotográfica, es importante saber que las cámaras digitales fotográficas son dispositivos de captura de imagen fija, instantánea, portátiles, confiables y cada día más prácticas en su manejo y utilización. Se debe considerar que el mercado es variado y jerarquizado por las diversas gamas. Dentro de las posibilidades de adquisición de un dispositivo fotográfico se deben de tener en cuenta las necesidades de su labor; pues será ese el factor decisivo para determinar qué dispositivo adquirir según su utilidad, se encuentran dispositivos de todo tipo y precio.
@@ -16,9 +16,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_1 1.1.	Fotografía análoga y digital
 
-    .offset-right.flex-wrap.flex-md-nowrap.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.png')})`}")
-      img(src="@/assets/curso/temas/tema1/img-2.png").mb-4.mb-md-0
-      p.ps-md-4 Fotografía análoga se llama a toda fotografía tomada por medio de una película fotosensible llamada rollo fotográfico y que requiere de un proceso de revelado físico mientras que la fotografía digital es la que trabaja con un registro en memoria que se revela de inmediato en una pantalla incorporada en el dispositivo generalmente. 
+    .offset-right.flex-wrap.flex-lg-nowrap.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.png')})`}")
+      img(src="@/assets/curso/temas/tema1/img-2.jpg" style="max-width: 610px").mx-auto.mb-4.mb-md-0.col-12.col-lg-6
+      p.ps-md-4.col-12.col-lg-6 Fotografía análoga se llama a toda fotografía tomada por medio de una película fotosensible llamada rollo fotográfico y que requiere de un proceso de revelado físico mientras que la fotografía digital es la que trabaja con un registro en memoria que se revela de inmediato en una pantalla incorporada en el dispositivo generalmente. 
         br
         br
         | La fotografía digital y análoga son usadas en el registro y documentación de eventos históricos, personales o familiares, también es común verla en arte a manera de exposición. La fotografía análoga y la digital basan su trabajo en la captura de la información y para eso es común que comparten varios elementos que se relatan a continuación tal como lo refiere la Escuela Versailles (2021)
@@ -55,7 +55,7 @@
     p.mb-5 La fotografía digital y la analógica se distinguen por diferentes aspectos, estos aspectos las hacen diferentes, a continuación, se muestran las diferencias más destacadas:
 
     .d-flex.flex-wrap.mb-5
-      .col-md-6.px-md-2.mb-4
+      .col-lg-6.px-md-2.mb-4
         .container-interactive-hover-text(@mouseover="indicadorImagenHover = false")
           .indicador--hover.d-none.d-md-flex(v-if="indicadorImagenHover")
           .indicador--click.d-block.d-md-none(v-if="indicadorImagenHover")
@@ -63,7 +63,7 @@
           .container-body-text
             p.title.fw-bold Fotografía digital
             p.content La fotografía digital utiliza un sensor de imagen. Eso significa que se encuentra unida a la tecnología informática ya que su tratamiento y retoque se hace a través de los ordenadores. Además, posee un monitor LCD con múltiples funciones y su revelado funciona de forma digital. También está formada por unos sensores que registran la información de la imagen mediante pequeñas células fotoeléctricas, conocidas como píxeles. Estos captan la luz del exterior y se manifiestan en descargas eléctricas.
-      .col-md-6.px-md-2
+      .col-lg-6.px-md-2
         .container-interactive-hover-text
           img(src="@/assets/curso/temas/tema1/img-8.png")
           .container-body-text
@@ -84,9 +84,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2. Los pixeles
 
-    .offset-left.d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-3.png')})`}" style="background-repeat: no-repeat; background-position: center")
-      p.mb-0.order-2.order-md-1.pe-md-4 Un píxel es la unidad mínima de la imagen digital, tal como lo relata Ionos (2021) “el píxel -o px, para abreviar- es el elemento más pequeño de una imagen reproducida digitalmente. En un monitor o en la pantalla de un teléfono móvil se suelen alinear varios píxeles en una trama. La combinación de varios píxeles constituye una imagen ``rasterizada” es decir que una imagen es la unión de miles de píxeles.
-      img(src="@/assets/curso/temas/tema1/img-11.png" style="max-width: 505px").order-1.order-md-2.mb-3.mb-md-0
+    .offset-left.d-flex.flex-wrap.flex-lg-nowrap.align-items-center.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-3.png')})`}" style="background-repeat: no-repeat; background-position: center")
+      p.mb-0.order-2.order-md-1.pe-md-4.col-lg-7 Un píxel es la unidad mínima de la imagen digital, tal como lo relata Ionos (2021) “el píxel -o px, para abreviar- es el elemento más pequeño de una imagen reproducida digitalmente. En un monitor o en la pantalla de un teléfono móvil se suelen alinear varios píxeles en una trama. La combinación de varios píxeles constituye una imagen ``rasterizada” es decir que una imagen es la unión de miles de píxeles.
+      img(src="@/assets/curso/temas/tema1/img-11.png" style="max-width: 505px").col-lg-5.order-1.order-md-2.mb-4.mb-lg-0.mx-auto
     p.mb-5 La importancia de la imagen digital toma fuerza con el desarrollo del píxel tal como lo muestran a continuación:
 
     figure.mb-5.video1
@@ -159,6 +159,12 @@ export default {
     .container-body-text
       background-color: #66D6E3D0
       top: 50%
+    @media (max-width: 1400px)
+      .container-body-text
+        top: 20%
+    @media (max-width: 1200px)
+      .container-body-text
+        top: 50%
     @media (max-width: 768px)
       .container-body-text
         top: 0

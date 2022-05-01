@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Fotografía básica de productos para redes sociales',
+    componenteFormativo: 'Introducción a la fotografía',
     descripcionCurso:
       'Con la fotografía se pueden expresar sentimientos, estados de ánimo, y activar los sentidos, lo cual repercute en que potenciales audiencias se identifiquen. El propósito es realizar fotografías a partir de los elementos que nos rodean y  herramientas que se tienen a la mano con el fin de marcar la diferencia en los contenidos que se encuentran en las redes sociales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

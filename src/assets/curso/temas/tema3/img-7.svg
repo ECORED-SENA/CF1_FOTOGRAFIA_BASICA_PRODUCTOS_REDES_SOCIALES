@@ -13,7 +13,7 @@
       <rect id="Rectángulo_264793" data-name="Rectángulo 264793" width="133.754" height="138" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_708276" data-name="Grupo 708276" transform="translate(-440.204 -5427)">
+  <g id="Grupo_722349" data-name="Grupo 722349" transform="translate(-440.204 -5427)">
     <text id="Más_luz" data-name="Más luz" transform="translate(440.204 5727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Más luz</tspan></text>
     <text id="Menos_luz" data-name="Menos luz" transform="translate(1083.204 5727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Menos luz</tspan></text>
     <text id="Luz" transform="translate(784.204 5627)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="19">Luz</tspan></text>
@@ -84,20 +84,20 @@
     <text id="Alta_velocidad_de_obturación_" data-name="Alta velocidad de obturación " transform="translate(941.204 5600)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Alta velocidad de obturación </tspan></text>
     <text id="Movimiento" transform="translate(756.204 5462)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Movimiento</tspan></text>
     <g id="Grupo_708275" data-name="Grupo 708275" transform="translate(14)">
-      <g id="Rectángulo_264773" data-name="Rectángulo 264773" transform="translate(428.204 5662)" fill="none" stroke="#72e6ff" stroke-width="1">
+      <g id="Rectángulo_264773" data-name="Rectángulo 264773" transform="translate(428.204 5662)" fill="none" stroke="#147dc4" stroke-width="1">
         <rect width="56" height="56" stroke="none"/>
         <rect x="0.5" y="0.5" width="55" height="55" fill="none"/>
       </g>
-      <rect id="Rectángulo_264774" data-name="Rectángulo 264774" width="56" height="56" transform="translate(494.204 5662)" fill="#72e6ff" opacity="0.16"/>
-      <rect id="Rectángulo_264775" data-name="Rectángulo 264775" width="56" height="56" transform="translate(560.204 5662)" fill="#72e6ff" opacity="0.31"/>
-      <rect id="Rectángulo_264776" data-name="Rectángulo 264776" width="56" height="56" transform="translate(626.204 5662)" fill="#72e6ff" opacity="0.38"/>
-      <rect id="Rectángulo_264777" data-name="Rectángulo 264777" width="56" height="56" transform="translate(692.204 5662)" fill="#72e6ff" opacity="0.48"/>
-      <rect id="Rectángulo_264778" data-name="Rectángulo 264778" width="56" height="56" transform="translate(758.204 5662)" fill="#72e6ff" opacity="0.59"/>
-      <rect id="Rectángulo_264780" data-name="Rectángulo 264780" width="56" height="56" transform="translate(824.204 5662)" fill="#72e6ff" opacity="0.63"/>
-      <rect id="Rectángulo_264781" data-name="Rectángulo 264781" width="56" height="56" transform="translate(890.204 5662)" fill="#72e6ff" opacity="0.79"/>
-      <rect id="Rectángulo_264782" data-name="Rectángulo 264782" width="56" height="56" transform="translate(956.204 5662)" fill="#72e6ff" opacity="0.85"/>
-      <rect id="Rectángulo_264783" data-name="Rectángulo 264783" width="56" height="56" transform="translate(1022.204 5662)" fill="#72e6ff" opacity="0.93"/>
-      <rect id="Rectángulo_264784" data-name="Rectángulo 264784" width="56" height="56" transform="translate(1088.204 5662)" fill="#72e6ff"/>
+      <rect id="Rectángulo_264774" data-name="Rectángulo 264774" width="56" height="56" transform="translate(494.204 5662)" fill="#147dc4" opacity="0.16"/>
+      <rect id="Rectángulo_264775" data-name="Rectángulo 264775" width="56" height="56" transform="translate(560.204 5662)" fill="#147dc4" opacity="0.31"/>
+      <rect id="Rectángulo_264776" data-name="Rectángulo 264776" width="56" height="56" transform="translate(626.204 5662)" fill="#147dc4" opacity="0.38"/>
+      <rect id="Rectángulo_264777" data-name="Rectángulo 264777" width="56" height="56" transform="translate(692.204 5662)" fill="#147dc4" opacity="0.48"/>
+      <rect id="Rectángulo_264778" data-name="Rectángulo 264778" width="56" height="56" transform="translate(758.204 5662)" fill="#147dc4" opacity="0.59"/>
+      <rect id="Rectángulo_264780" data-name="Rectángulo 264780" width="56" height="56" transform="translate(824.204 5662)" fill="#147dc4" opacity="0.63"/>
+      <rect id="Rectángulo_264781" data-name="Rectángulo 264781" width="56" height="56" transform="translate(890.204 5662)" fill="#147dc4" opacity="0.79"/>
+      <rect id="Rectángulo_264782" data-name="Rectángulo 264782" width="56" height="56" transform="translate(956.204 5662)" fill="#147dc4" opacity="0.85"/>
+      <rect id="Rectángulo_264783" data-name="Rectángulo 264783" width="56" height="56" transform="translate(1022.204 5662)" fill="#147dc4" opacity="0.93"/>
+      <rect id="Rectángulo_264784" data-name="Rectángulo 264784" width="56" height="56" transform="translate(1088.204 5662)" fill="#147dc4"/>
     </g>
   </g>
 </svg>

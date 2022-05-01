@@ -7,13 +7,15 @@
         span(style="color: white") 2
       h1 La cámara como dispositivo
     
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.p-3.px-xl-4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.png')})`}" style="background-repeat: no-repeat; background-position: center")
-      p.pe-md-4.order-2.order-xl-1 Una cámara fotográfica o cámara de fotos es un dispositivo utilizado para capturar imágenes. Es un mecanismo antiguo para proyectar imágenes, en el que una habitación entera desempeñaba las mismas funciones que una cámara fotográfica actual por dentro, con la diferencia que en aquella época no había posibilidad de guardar la imagen a menos que ésta se trazara manualmente. Las cámaras actuales pueden ser sensibles al espectro visible o a otras porciones del espectro electromagnético y su uso principal es capturar la imagen que se encuentra en el campo visual.
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.p-3.px-xl-4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.png')})`}" style="background-repeat: no-repeat; background-position: center")
+      p.pe-md-4.order-2.order-xl-1.col-xl-6 Una cámara fotográfica o cámara de fotos es un dispositivo utilizado para capturar imágenes. Es un mecanismo antiguo para proyectar imágenes, en el que una habitación entera desempeñaba las mismas funciones que una cámara fotográfica actual por dentro, con la diferencia que en aquella época no había posibilidad de guardar la imagen a menos que ésta se trazara manualmente. Las cámaras actuales pueden ser sensibles al espectro visible o a otras porciones del espectro electromagnético y su uso principal es capturar la imagen que se encuentra en el campo visual.
         br
         br
         | Las cámaras fotográficas constan de una cámara oscura cerrada, con una abertura en uno de los extremos para que pueda entrar la luz, y una superficie plana de formación de la imagen o de visualización para capturar la luz en el otro extremo. La mayoría, tienen un objetivo formado de lentes, ubicado delante de la abertura de la cámara fotográfica para controlar la luz entrante y para enfocar la imagen, o parte de la imagen. El diámetro de esta abertura (conocido como apertura) suele modificarse con un diafragma, aunque algunos objetivos tienen apertura fija.
-      img(src="@/assets/curso/temas/tema2/img-1.png").order-1.order-xl-2.mb-3.mb-xl-0
+      img(src="@/assets/curso/temas/tema2/img-1.png").order-1.order-xl-2.mb-3.mb-xl-0.col-xl-6
     
+    Separador
+
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Los pixeles
     
@@ -96,29 +98,26 @@
               img(src="@/assets/curso/temas/tema2/carousel-8.png" style="max-width: 583px").mx-auto
 
     .offset-left.d-flex.flex-wrap.flex-xl-nowrap.py-0.pe-0.align-items-center.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-2.png')})`}")
-      p.mb-4.mb-xl-0.pe-0.pe-xl-4.order-2.order-xl-1 Un elemento muy común dentro de los dispositivos, sobre todo los más recientes es el espacio de modos de foto, los modos de foto son preconfiguraciones que vienen con la cámara desde la fábrica en la que setean todos los elementos para facilitar la captura fotográfica de los eventos más populares, inclusive dejan elegir si lo que el fotógrafo quiere es hacer las tomas de manera manual. Estos modos ayudan mucho a personas que quieren hacer fotos de buena calidad de manera rápida y con cuentan con tanto conocimiento para hacerlo o prefieren confiar en las configuraciones de fábrica, en la siguiente imagen se muestran los modos de cámara y sus usos más frecuentes:
-      img(src="@/assets/curso/temas/tema2/img-2.png").order-1.order-xl-2.mb-4.mb-xl-0
+      p.mb-4.mb-xl-0.pe-0.pe-xl-4.order-2.order-xl-1.col-xl-6 Un elemento muy común dentro de los dispositivos, sobre todo los más recientes es el espacio de modos de foto, los modos de foto son preconfiguraciones que vienen con la cámara desde la fábrica en la que setean todos los elementos para facilitar la captura fotográfica de los eventos más populares, inclusive dejan elegir si lo que el fotógrafo quiere es hacer las tomas de manera manual. Estos modos ayudan mucho a personas que quieren hacer fotos de buena calidad de manera rápida y con cuentan con tanto conocimiento para hacerlo o prefieren confiar en las configuraciones de fábrica, en la siguiente imagen se muestran los modos de cámara y sus usos más frecuentes:
+      img(src="@/assets/curso/temas/tema2/img-2.png").order-1.order-xl-2.mb-4.mb-xl-0.col-xl-6
 
     p.mb-0 <b>Modos de la cámara digital:</b> las cámaras digitales disponen de diferentes modos de uso, que se determinan según la escena y la situación de luz que se va a fotografiar, los cuales son: 
 
     .d-flex.flex-wrap.flex-xl-nowrap(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-3.png')})`}" style="background-repeat: no-repeat; margin-left: -3rem; margin-right: -3rem; padding: 6rem 3rem;")
       .order-2.order-xl-1
-        .d-flex.align-items-center.mb-4.mb-xl-0
-          img(src="@/assets/curso/temas/tema2/1.svg" style="max-width: 108px").me-2
-          p.mb-0 <b>Automático: </b>
-            br
+        .d-flex.align-items-center.mb-4
+          img(src="@/assets/curso/temas/tema2/1.svg" style="max-width: 108px").me-2.mb-auto.mb-md-0
+          p.mb-0.my-md-auto <b>Automático: </b>
             br
             | en este modo la cámara controla por sí sola la velocidad, la apertura del<br class="d-none d-xl-flex"> diafragma y el ISO.
-        .d-flex.align-items-center.mb-4.mb-xl-0
-          img(src="@/assets/curso/temas/tema2/2.svg" style="max-width: 108px").me-2
-          p.mb-0 <b>Semi-automático:</b>
-            br
+        .d-flex.align-items-center.mb-4
+          img(src="@/assets/curso/temas/tema2/2.svg" style="max-width: 108px").me-2.mb-auto.mb-md-0
+          p.mb-0.my-md-auto <b>Semi-automático:</b>
             br
             | donde la cámara controla solamente la velocidad y la apertura del<br class="d-none d-xl-flex"> diafragma y el fotógrafo controla el ISO.
-        .d-flex.align-items-center.mb-4.mb-xl-0
-          img(src="@/assets/curso/temas/tema2/3.svg" style="max-width: 108px").me-2
-          p.mb-0 <b>Modo manual:</b>
-            br
+        .d-flex.mb-4
+          img(src="@/assets/curso/temas/tema2/3.svg" style="max-width: 108px").me-2.mb-auto
+          p.mb-0.my-md-auto <b>Modo manual:</b>
             br
             | en donde el fotógrafo controla la velocidad, la apertura del diafragma y<br class="d-none d-xl-flex"> el ISO. Es recomendable llegar a usar el modo manual, ya que es aquí<br class="d-none d-xl-flex"> donde todas las destrezas y saberes del fotógrafo se ponen en juego.
       img(src="@/assets/curso/temas/tema2/img-9.png" style="max-width: 570px").mx-auto.ms-auto.order-1.order-xl-2.mb-4.mb-xl-auto
@@ -130,7 +129,7 @@
     
     .position-relative.mb-5
       img(src="@/assets/curso/temas/tema2/img-3.png").mb-2
-      div(style="background-color: #BAD5EC; bottom: 0; padding: 1rem; font-size: 15px")
+      div(style="background-color: #BAD5EC; bottom: 0; padding: 2rem 1.5rem; font-size: 15px")
         p.mb-0 Los lentes y objetivos son parte esencial para la buena calidad de las fotografías, si bien la cámara es la que manipula y captura la imagen, el lente es quien recoge y dirige la luz, Los lentes fotográficos son herramientas fundamentales para la imagen final, tanto como expresión creativa como para la practicidad de la toma fotográfica. La amplia gama de lentes a disposición hace posible que todas las necesidades y exigencias fotográficas sean posibles. Es importante mencionar que los diferentes lentes tienen diversos ángulos de toma fotográfica. Todos los lentes se miden en mm (28 mm, 50 mm) y cada uno de ellos tiene su ángulo y amplitud de toma. 
     
     img(src="@/assets/curso/temas/tema2/img-4.svg").mb-5
@@ -160,7 +159,8 @@
       p.col-12.col-xl-6.ps-0.ps-xl-4.mb-0 La calidad de las imágenes tomadas con una cámara digital es diferente de la calidad de las imágenes tomadas con un teléfono móvil. Esas diferencias se dan por varios motivos, en primer lugar, se puede decir esto por la calidad de la imagen y la nitidez de los detalles, por supuesto, será mayor la calidad (en pixeles) la fotografía con una cámara digital; es claro que los materiales también influyen ya que las cámaras fotográficas de lentes (objetivos) intercambiables pueden ser hasta en vidrio haciendo el efecto réflex casi perfecto mientras que las cámaras de los celulares tienen un lente fijo (objetivo fijo) y sus cambios son digitales; y por último su funcionalidad y seguimiento, es claro que una cámara está hecha solo para eso mientras que los teléfonos también usan su cámara para otras tareas que no requieren imágenes de gran resolución como las de las videollamadas o publicaciones sencillas en redes sociales.
         br
         br
-        | La velocidad de obturación también es importante al grabar videos, no importa qué tan avanzada sea la tecnología celular, los últimos desarrollos tecnológicos en teléfonos a 2025 no serán tan rápidos como las cámaras digitales, eso hace que se demore algunas milésimas de segundos más la toma de fotos con el teléfono, lo que puede resultar en imágenes borrosas entre los fotogramas, eso se puede evidenciar con una pausa en un video capturado por medio de un teléfono móvil.}
+        span.notShow La velocidad de obturación también es importante al grabar videos, no importa qué tan avanzada sea la tecnología celular, los últimos desarrollos tecnológicos en teléfonos a 2025 no serán tan rápidos como las cámaras digitales, eso hace que se demore algunas milésimas de segundos más la toma de fotos con el teléfono, lo que puede resultar en imágenes borrosas entre los fotogramas, eso se puede evidenciar con una pausa en un video capturado por medio de un teléfono móvil.
+    p.showText La velocidad de obturación también es importante al grabar videos, no importa qué tan avanzada sea la tecnología celular, los últimos desarrollos tecnológicos en teléfonos a 2025 no serán tan rápidos como las cámaras digitales, eso hace que se demore algunas milésimas de segundos más la toma de fotos con el teléfono, lo que puede resultar en imágenes borrosas entre los fotogramas, eso se puede evidenciar con una pausa en un video capturado por medio de un teléfono móvil.
     p.mb-5 Los teléfonos móviles tienen la ventaja de la versatilidad lo que los hace muy potentes para las diferentes tareas además de tomar fotos y para muchos eventos en redes sociales las fotos generadas con estos dispositivos son ideales en formato, calidad, peso y formato como lo podrán ver más adelante.
       br
       br
@@ -198,11 +198,11 @@ export default {
     indexSlider: 1,
     indexSlide: 0,
     titulosSlide: [
-      '2.2.1. Gran angular 18 mm – 28 mm',
-      '2.2.2. Lente angular 35 mm',
-      '2.2.3. Lente normal 50 mm',
-      '2.2.4. Teleobjetivo 100 mm',
-      '2.2.5. Teleobjetivo 500 mm',
+      'Gran angular 18 mm – 28 mm',
+      'Lente angular 35 mm',
+      'Lente normal 50 mm',
+      'Teleobjetivo 100 mm',
+      'Teleobjetivo 500 mm',
     ],
     datosSlyder: [
       {
@@ -338,8 +338,6 @@ export default {
       .container-item-carousel
         .container-item
           padding: 2rem 1rem
-          .text-item
-            padding-right: 2rem
 @media (max-width: 1000px)
   .container-carousel
     min-height: 880px
@@ -362,6 +360,9 @@ export default {
             padding-right: 0
     .dots
       bottom: 0.5rem
+@media (max-width: 768px)
+  .container-carousel
+    min-height: 740px
 .offset-left
   margin-left: -3rem
   padding-left: 3rem
@@ -374,4 +375,12 @@ export default {
     margin-left: -3rem
     padding-right: 3rem !important
     padding-left: 3rem !important
+.notShow
+  display: flex
+  @media (max-width:1400px)
+    display: none
+.showText
+  display: none
+  @media (max-width:1400px)
+    display: flex
 </style>

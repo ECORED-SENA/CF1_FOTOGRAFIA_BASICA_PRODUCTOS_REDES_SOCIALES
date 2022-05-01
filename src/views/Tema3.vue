@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span(style="color: white") 3
-      h1 Proveedores de servicio en la nube
+      h1 Características de la fotografía
 
     img(src="@/assets/curso/temas/tema3/img-1.png").mb-2
     div(style="padding: 1rem; background-color: #C9DFF1")
@@ -47,7 +47,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_2 3.2. Velocidad
 
-    .p-3.px-xl-4.py-xl-5.d-flex.flex-wrap.flex-xl-nowrap.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-2.png')})`}" style="margin-left: -3rem; margin-right: -3rem; padding-left: 3rem; padding-right: 3rem; background-repeat: no-repeat;")
+    .px-xl-4.py-xl-5.d-flex.flex-wrap.flex-xl-nowrap.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-2.png')})`}" style="margin-left: -3rem; margin-right: -3rem; padding-left: 3rem; padding-right: 3rem; background-repeat: no-repeat;")
       p.col-12.col-xl-5.px-0.px-md-4.order-2.order-xl-1 “La velocidad de obturación en fotografía, es el tiempo que permanecen abiertas las laminillas del obturador permitiendo el paso de luz. La velocidad de obturación, es otro factor primordial que ayuda a controlar la exposición de la fotografía” De-Fotografía'' (2020) Esta velocidad determina el tiempo que el obturador permanece abierto, controlando así la cantidad de luz que entra al sensor de la cámara.  Las unidades trabajadas en la velocidad son los segundos, por ejemplo, la velocidad 5000 es equivalente a 1/5000 de segundo. Las notaciones de las velocidades pueden cambiar dependiendo de la marca de cámara y su modelo. Otra forma de representarlo es 5000 o 5ooo, en general es lo mismo solo cambia la notación del término.
       img(src="@/assets/curso/temas/tema3/img-5.png" style="max-width: 674px").col-12.col-xl-7.mx-auto.order-1.order-xl-2.mb-4.mb-xl-auto
 
