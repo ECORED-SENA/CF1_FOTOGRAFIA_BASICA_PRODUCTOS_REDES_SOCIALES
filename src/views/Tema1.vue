@@ -80,6 +80,8 @@
         img(src="@/assets/curso/temas/tema1/img-10.png")
         .d-flex.justify-content-center.align-items-center(style="position: absolute; bottom: 0; width: calc(100% - 1rem); min-height: 71px; background-color: #ABC0D2CF")
           p.mb-0.fw-bold Digital
+    
+    Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2. Los pixeles
