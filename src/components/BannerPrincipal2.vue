@@ -2,9 +2,9 @@
 .banner-principal
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
-    style="min-height: 506px; display: flex"
+    style="min-height: 506px; display: flex; overflow: hidden;"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center(style="over-flow: hidden")
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo" style="color: black")
@@ -45,6 +45,16 @@ export default {
     position: relative
     z-index: 1
     left: -3rem
+  @media (max-width: 1400px)
+    right: -12% !important
+    top: 5% !important
+    position: relative
+    z-index: 1
+  @media (max-width: 1200px)
+    right: -27% !important
+    top: 10% !important
+    position: relative
+    z-index: 1
 .img-p
   top: 3%
   right: -2%

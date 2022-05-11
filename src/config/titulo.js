@@ -1,1 +1,1 @@
-module.exports = 'Fotografía básica de productos para redes sociales'
+module.exports = 'Introducción a la fotografía'
