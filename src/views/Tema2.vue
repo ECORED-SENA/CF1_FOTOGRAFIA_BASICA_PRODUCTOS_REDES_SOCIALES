@@ -17,7 +17,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.1 Los pixeles
+      h2#t_2_1 2.1 Partes de la cámara fotográfica
     
     p.mb-5 Las cámaras fotográficas son la configuración ideal de muchos elementos distribuidos en un espacio que buscan un mismo objetivo, estos elementos se conocen como partes de la cámara fotográfica, en algunos textos o documentos se pueden ver con el nombre de componentes, a continuación, se reflejan todas las partes en un gráfico:
     div(style="margin-left: -3rem; margin-right: -3rem;")
@@ -27,7 +27,7 @@
 
     figure.mb-5.video1
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nbGVvnzKlfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Las funciones de cada parte de la cámara fotográfica se muestran en el siguiente elemento, identifique de inmediato si su teléfono cuenta con algunos de estos elementos que le pueden funcionar para las fotografías requeridas para su proyecto formativo:
 
@@ -138,7 +138,7 @@
 
     figure.mb-5.video1
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/mgvJvJ_OO2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
     p Los objetivos fotográficos son variados porque se distinguen gracias a la necesidad que cubren, hay objetivos que están dados para distancias pequeñas o otros para distancias mayores teniendo en cuenta siempre el objetivo de la fotografía, es por eso que en el mercado se presentan miles de opciones en las que están destacadas las más populares que se muestran a continuación, sin embargo, es posible que el objetivo puntual que requieran ciertos proyectos específicos no se encuentre en el listado.
 
