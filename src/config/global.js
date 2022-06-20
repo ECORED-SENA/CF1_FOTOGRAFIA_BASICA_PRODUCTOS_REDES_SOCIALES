@@ -105,7 +105,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Redes sociales para publicar fotografías',
+        titulo: 'Redes sociales para publicación de fotografías',
         desarrolloContenidos: true,
       },
     ],
@@ -167,15 +167,13 @@ export default {
     },
     {
       texto:
-        'Joel Lacey,BLUME. (2004). The Lex p     ress limited, London. Guía completa de imagen digital',
+        'Joel Lacey,BLUME. (2004). The Lex press limited, London. Guía completa de imagen digital',
       tipo: 'Libro',
-      link: 'Pagina: 14 -15',
     },
     {
       texto:
         'Antoine Desilets, Les Editions de I´Homme,Montréal (1971).La Technique de la photo',
       tipo: 'Libro',
-      link: 'Pagina: 51 a la 70',
     },
   ],
   glosario: [
@@ -257,7 +255,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Adobe (2020). Qué es el ISO en fotografía y cómo utilizarlo.',
+        'El ISO en fotografía: Cómo sacarles el máximo provecho a los niveles de exposición de tu cámara.',
       link:
         'https://www.adobe.com/es/creativecloud/photography/discover/iso.html',
     },
