@@ -166,14 +166,16 @@ export default {
       link: 'https://www.youtube.com/watch?v=4kzojQOSUxU',
     },
     {
-      texto:
-        'Joel Lacey,BLUME. (2004). The Lex press limited, London. Guía completa de imagen digital',
+      texto: 'Freeman, M. (2010). Guía completa de fotografía digital.',
       tipo: 'Libro',
+      link:
+        'https://issuu.com/editorialblume/docs/guia-completa-de-fotografia-digital',
     },
     {
       texto:
         'Antoine Desilets, Les Editions de I´Homme,Montréal (1971).La Technique de la photo',
       tipo: 'Libro',
+      link: 'https://archive.org/details/latechniquedelap0000desi  ',
     },
   ],
   glosario: [
@@ -255,7 +257,7 @@ export default {
   referencias: [
     {
       referencia:
-        'El ISO en fotografía: Cómo sacarles el máximo provecho a los niveles de exposición de tu cámara.',
+        'Adobe(2020) El ISO en fotografía: Cómo sacarles el máximo provecho a los niveles de exposición de tu cámara.',
       link:
         'https://www.adobe.com/es/creativecloud/photography/discover/iso.html',
     },
